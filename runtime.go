@@ -3,6 +3,8 @@ package oneliners
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/fatih/color"
+	"github.com/hokaccha/go-prettyjson"
 	"log"
 	"reflect"
 	"runtime"
@@ -34,7 +36,13 @@ func PrettyJson(a interface{}, msg ...string) {
 					a = js
 				}
 			}
-			data, _ := json.MarshalIndent(a, "", "   ")
+			f := prettyjson.NewFormatter()
+			f.KeyColor = color.New(color.FgHiMagenta)
+			f.StringColor = color.New(color.FgGreen)
+			f.BoolColor = color.New(color.FgHiYellow)
+			f.NumberColor = color.New(color.FgHiCyan)
+			f.NullColor = color.New(color.FgHiBlue, color.Italic)
+			data, _ := f.Marshal(a)
 			str := ""
 			if len(msg) > 0 {
 				str = strings.Trim(fmt.Sprintf("%v", msg), "[]")
