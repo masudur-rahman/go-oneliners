@@ -33,6 +33,14 @@
   name = "github.com/fatih/color"
   branch = "master"
 
+[[override]]
+  name = "github.com/mattn/go-isatty"
+  branch = "master"
+
+[[override]]
+  name = "github.com/mattn/go-colorable"
+  branch = "master"
+
 [prune]
   go-tests = true
   unused-packages = true
