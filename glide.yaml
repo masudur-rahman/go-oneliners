@@ -3,9 +3,7 @@ import:
 - package: github.com/fatih/color
   version: v1.7.0
 - package: github.com/hokaccha/go-prettyjson
-- package: github.com/fatih/color
-  version: v1.7.0
-- package: github.com/fatih/color
-  version: v1.7.0
-- package: github.com/fatih/color
-  version: v1.7.0
+- package: github.com/mattn/go-colorable
+  version: v0.1.1
+- package: github.com/mattn/go-isatty
+  version: v0.0.7

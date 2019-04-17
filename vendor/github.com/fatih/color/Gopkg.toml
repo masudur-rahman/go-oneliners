@@ -23,8 +23,8 @@
 
 [[constraint]]
   name = "github.com/mattn/go-colorable"
-  version = "v0.1.1"
+  version = "0.0.9"
 
 [[constraint]]
   name = "github.com/mattn/go-isatty"
-  version = "v0.0.7"
+  version = "0.0.3"
