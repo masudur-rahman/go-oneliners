@@ -35,11 +35,11 @@
 
 [[override]]
   name = "github.com/mattn/go-isatty"
-  branch = "master"
+  version = "v0.0.7"
 
 [[override]]
   name = "github.com/mattn/go-colorable"
-  branch = "master"
+  version = "v0.1.1"
 
 [prune]
   go-tests = true
