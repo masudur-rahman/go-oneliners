@@ -3,11 +3,12 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ae7af28895023cc60b0c04e7c9e236ff04a0dfbe8bc4c4d9be8c86aad3fc4fcd"
+  digest = "1:a35e8e75c79e17890398441e236f42ca3c6b358c82112b1cb6805cfdbd6e6689"
   name = "github.com/fatih/color"
   packages = ["."]
   pruneopts = "UT"
-  revision = "3f9d52f7176a6927daacff70a3e8d1dc2025c53e"
+  revision = "8cba60da5e213d8f7c2e7d330cfeb7e617af3312"
+  source = "github.com/the-redback/color"
 
 [[projects]]
   branch = "master"
@@ -35,11 +36,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:c9a4e761695039425d21448d3289ff280c3a98f0c8145fa7417d9889556006b7"
+  digest = "1:28d862f4f9bf2d1976d1d320481bff661b7565eb876d4df2a981f79e7f40e4cd"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "9eb1bfa1ce65ae8a6ff3114b0aaf9a41a6cf3560"
+  revision = "12500544f89f9420afe9529ba8940bf72d294972"
 
 [solve-meta]
   analyzer-name = "dep"
