@@ -1,7 +1,8 @@
 package: github.com/the-redback/go-oneliners
 import:
 - package: github.com/fatih/color
-  version: v1.7.0
+  version: master
+  repo: https://github.com/the-redback/color.git
 - package: github.com/hokaccha/go-prettyjson
 - package: github.com/mattn/go-colorable
   version: v0.1.1
