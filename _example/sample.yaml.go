@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/the-redback/go-oneliners"
+	"github.com/masudur-rahman/go-oneliners"
 )
 
 func main() {
@@ -17,7 +17,6 @@ func main() {
 	}
 	oneliners.PrettyJson(v)
 
-
 	str := map[string]interface{}{
 		"Name": "Wednesday",
 		"Age":  6,
@@ -28,7 +27,7 @@ func main() {
 	}
 	oneliners.PrettyJson(str, "Asad")
 
-	mongodb:=[]byte(`{ "metadata": {
+	mongodb := []byte(`{ "metadata": {
     "creationTimestamp": "2018-12-13T06:24:37Z",
     "finalizers": [
       "kubedb.com"
@@ -103,6 +102,6 @@ func main() {
   },
   "status": {}
 }`)
-	oneliners.PrettyJson(mongodb,"mongodb")
+	oneliners.PrettyJson(mongodb, "mongodb")
 
 }
